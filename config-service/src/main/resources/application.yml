@@ -7,6 +7,8 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/CarlosRomio/microservices-java
+          uri: https://github.com/Maducdornelles/microservices-java
           search-paths:
-          - configs/{application}
+          - microservices-java/configs/{application}
+          #username: Maducdornelles
+          #password: senha
